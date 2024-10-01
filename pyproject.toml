@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "certsim"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cryptography = "^43.0.1"
+click = "^8.1.7"
+rich = "^13.8.1"
+tqdm = "^4.66.5"
+
+pyopenssl = "^24.2.1"
+asn1crypto = "^1.5.1"
+pymupdf = "^1.24.10"
+pillow = "^10.4.0"
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+attrs = "^24.2.0"
+
+pytest-rich = "^0.1.1"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+certsim = "certsim.cli:certsim"
