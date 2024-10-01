@@ -1,5 +1,16 @@
 ### CertSim: Simulador de Geração de Certificados Digitais com Ênfase em Segurança
 
+```
+  /$$$$$$                        /$$      /$$$$$$  /$$              
+ /$$__  $$                      | $$     /$$__  $$|__/              
+| $$  \__/  /$$$$$$   /$$$$$$  /$$$$$$  | $$  \__/ /$$ /$$$$$$/$$$$ 
+| $$       /$$__  $$ /$$__  $$|_  $$_/  |  $$$$$$ | $$| $$_  $$_  $$
+| $$      | $$$$$$$$| $$  \__/  | $$     \____  $$| $$| $$ \ $$ \ $$
+| $$    $$| $$_____/| $$        | $$ /$$ /$$  \ $$| $$| $$ | $$ | $$
+|  $$$$$$/|  $$$$$$$| $$        |  $$$$/|  $$$$$$/| $$| $$ | $$ | $$
+ \______/  \_______/|__/         \___/   \______/ |__/|__/ |__/ |__/
+```
+
 #### **1. Propósito do Projeto**
 
 O **CertSim** é um simulador educativo desenvolvido para demonstrar como a geração, assinatura e verificação de certificados digitais X.509 funcionam, de acordo com as diretrizes da ICP-Brasil (Infraestrutura de Chaves Públicas Brasileira). O objetivo principal é proporcionar uma visão prática de como a criptografia assimétrica pode ser aplicada para garantir a integridade e autenticidade de documentos digitais, ao mesmo tempo em que protege a confidencialidade das chaves privadas.
